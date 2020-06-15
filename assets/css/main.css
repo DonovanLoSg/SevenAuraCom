@@ -4,8 +4,17 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.header-image {
+  background-color: white;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)), url("../img/header-image.png");
+  height: 120px;
+  background-position: center;
+  background-repeat: repeat-x;
+  position: relative;
+}
+
 .hero-image {
-    background-color: lack;
+  background-color: black;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-image-yoga.png");
   height: 50%;
   background-position: center;
