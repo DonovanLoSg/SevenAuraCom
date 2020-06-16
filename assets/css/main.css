@@ -14,14 +14,18 @@ body, html {
 }
 
 .hero-image {
-  background-color: black;
+  background-color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-image-yoga.png");
-  height: 50%;
-  background-position: center;
+  height: 60%;
+  background-position: center ;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  box-shadow: 5px 10px 40px black;
+  margin-top: 20px;
 }
+
+/* https://www.wallpaperflare.com/photo-of-woman-doing-yoga-active-body-exercise-female-fit-wallpaper-gjqzn/download/1920x1080 */
 
 .hero-text {
   text-align: center;
@@ -47,3 +51,4 @@ body, html {
   background-color: #555;
   color: white;
 }
+
