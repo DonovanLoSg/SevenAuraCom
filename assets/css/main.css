@@ -1,94 +1,88 @@
 body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
-
 .header-image {
-  background-color: white;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)), url("../img/header-image.png");
-  height: 150px;
-  background-position: center;
-  background-repeat: repeat-x;
-  position: relative;
-
+	background-color: white;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)), url("../img/header-image.png");
+	height: 150px;
+	background-position: center;
+	background-repeat: repeat-x;
+	position: relative;
 }
-
 .hero-image {
-  background-color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/hero-image-yoga.png");
-  height: 60%;
-  background-position: center ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  box-shadow: 5px 10px 40px black;
-  margin-top: 30px;
+	background-color: white;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/hero-image-yoga.png");
+	height: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	box-shadow: 5px 10px 40px black;
+	margin-top: 30px;
 }
-
 /* https://www.wallpaperflare.com/photo-of-woman-doing-yoga-active-body-exercise-female-fit-wallpaper-gjqzn/download/1920x1080 */
 
 .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
 }
-
 .hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 10px 25px;
+	color: black;
+	background-color: #ddd;
+	text-align: center;
+	cursor: pointer;
 }
-
 .hero-text button:hover {
-  background-color: #555;
-  color: white;
+	background-color: #555;
+	color: white;
 }
-
 .navbar {
-     min-height: 170px;
-     width: 200px;
-     align-items:flex-end;
-     margin-bottom: 10px;
-    }
-
-.nav-item {
-    background-color: rgba(255,255,255,.8);
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    border-left: 15px;
-    border-right: 15px;
-
+	min-height: 170px;
+	width: 200px;
+	align-items: flex-end;
+	margin-bottom: 10px;
 }
-
-/* .nav-item a{
-    color: black;
-} */
+.nav-item {
+	background-color: rgba(255, 255, 255, .8);
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	border-left: 15px;
+	border-right: 15px;
+}
 
 .navbar-trans {
-    background: transparent !important;
+	background: transparent !important;
 }
-
 .logo {
-    width: 150px;
-    height: 150px;
+	width: 150px;
+	height: 150px;
 }
-
 .logo-wrapper {
-    border-radius: 50%;
-    margin: 0px;
-    width: 150px;
-    height: 150px;
-    background-color: rgba(255,255,255,.7);
-    box-shadow: 10px 10px 43px 20px rgba(255,255,255,.5);
-    padding: 0px;
+	border-radius: 50%;
+	margin: 0px;
+	width: 150px;
+	height: 150px;
+	background-color: rgba(255, 255, 255, .7);
+	box-shadow: 10px 10px 43px 20px rgba(255, 255, 255, .5);
+	padding: 0px;
+}
+.facebook-icon {
+	width: 30px;
 }
 
+.social-media {
+    width: 350px;
+    color: blue;
+    font-size: 18px;
+
+}
