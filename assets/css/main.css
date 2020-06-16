@@ -11,6 +11,7 @@ body, html {
   background-position: center;
   background-repeat: repeat-x;
   position: relative;
+
 }
 
 .hero-image {
@@ -22,7 +23,7 @@ body, html {
   background-size: cover;
   position: relative;
   box-shadow: 5px 10px 40px black;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 /* https://www.wallpaperflare.com/photo-of-woman-doing-yoga-active-body-exercise-female-fit-wallpaper-gjqzn/download/1920x1080 */
@@ -55,6 +56,8 @@ body, html {
 .navbar {
      min-height: 170px;
      width: 200px;
+     align-items:flex-end;
+     margin-bottom: 10px;
     }
 
 .nav-item {
@@ -63,11 +66,12 @@ body, html {
     letter-spacing: 0.2em;
     border-left: 15px;
     border-right: 15px;
+
 }
 
-.nav-item a{
+/* .nav-item a{
     color: black;
-}
+} */
 
 .navbar-trans {
     background: transparent !important;
@@ -87,3 +91,4 @@ body, html {
     box-shadow: 10px 10px 43px 20px rgba(255,255,255,.5);
     padding: 0px;
 }
+
