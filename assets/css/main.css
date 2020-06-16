@@ -57,6 +57,18 @@ body, html {
      width: 200px;
     }
 
+.nav-item {
+    background-color: rgba(255,255,255,.8);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    border-left: 15px;
+    border-right: 15px;
+}
+
+.nav-item a{
+    color: black;
+}
+
 .navbar-trans {
     background: transparent !important;
 }
@@ -73,5 +85,5 @@ body, html {
     height: 150px;
     background-color: rgba(255,255,255,.7);
     box-shadow: 10px 10px 43px 20px rgba(255,255,255,.5);
-    padding: 0px
+    padding: 0px;
 }
