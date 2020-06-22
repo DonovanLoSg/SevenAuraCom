@@ -1,4 +1,4 @@
-﻿/* Light Way Admin Bootstrap Theme by PrepBootstrap - http://www.prepbootstrap.com */
+/* Light Way Admin Bootstrap Theme by PrepBootstrap - http://www.prepbootstrap.com */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5765,4 +5765,7 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+.lightYellow {
+    background: 
 }
