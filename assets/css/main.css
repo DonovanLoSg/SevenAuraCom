@@ -27,7 +27,8 @@ h1 {
   background-color: white;
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)), url("../img/header-image.png");
   height: 170px;
-  background-position: center;
+  min-height: 80px;
+  background-position: top;
   background-repeat: repeat-x;
   position: fixed;
   width: 100%;
@@ -36,12 +37,20 @@ h1 {
   border: 0px;
 }
 
+@media screen and (max-width: 768px) {
+  .header-image {
+    height: 90px;
+  }
+}
+
+
+
 .hero-image {
   background-color: red;
   background-color: white;
   background-image: url("../img/hero-image-yoga.png");
   height: 570px;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 5px 10px 40px black;
@@ -49,8 +58,21 @@ h1 {
 }
 /* https://www.wallpaperflare.com/photo-of-woman-doing-yoga-active-body-exercise-female-fit-wallpaper-gjqzn/download/1920x1080 */
 
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    height: 300px;
+  }
+}
+
 .displacement {
   height: 170px;
+}
+
+@media screen and (max-width: 768px) {
+  .displacement {
+    height: 90px;
+  }
 }
 
 .hero-text {
@@ -81,6 +103,12 @@ h1 {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar {
+    min-height: 80px;;
+  }
+}
+
 .nav-item {
   background-color: rgba(255, 255, 255, .8);
   text-transform: uppercase;
@@ -103,20 +131,43 @@ h1 {
   right: 50px;
   top: 50px;
 }
+.hamburger-sm {
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, .8);
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
 
 .hamburger-text {
   font-family: Raleway;
 }
 
 .logo {
-  width: 120px;
-  height: 120px;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.logo-sm {
+  max-width: 80px;
+  max-height: 80px;
 }
 
 .logo-wrapper {
   border-radius: 50%;
   width: 120px;
   height: 120px;
+  background-color: rgba(255, 255, 255, .7);
+  box-shadow: 10px 10px 43px 20px rgba(255, 255, 255, .5);
+}
+
+.logo-wrapper-sm {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
   background-color: rgba(255, 255, 255, .7);
   box-shadow: 10px 10px 43px 20px rgba(255, 255, 255, .5);
 }
