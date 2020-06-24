@@ -108,13 +108,13 @@ h1 {
 }
 
 .hero-text>p {
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Permanent Marker', cursive;
 }
 
 @media screen and (max-width: 768px) {
   .hero-text>p {
-  font-size: 20px;
+  font-size: 15px;
   }
 }
 
