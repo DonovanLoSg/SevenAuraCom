@@ -95,10 +95,12 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  text-shadow: 2px 2px grey;
+  
 }
 
 
-/* 
+
 .hero-text>h1 {
   font-size: 80px;
   font-family: 'Permanent Marker', cursive;
@@ -107,7 +109,7 @@ h1 {
 .hero-text>p {
   font-size: 40px;
   font-family: 'Permanent Marker', cursive;
-} */
+}
 
 .navbar {
   min-height: 150px;
