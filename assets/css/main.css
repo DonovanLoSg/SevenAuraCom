@@ -13,7 +13,7 @@ body, html {
 h1 {
   color: #black;
   font-weight: bold;
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
 }
 
 .lightBlue {
@@ -21,15 +21,15 @@ h1 {
 }
 
 .lightYellow {
-    background: #FFDD67 !important;
+  background: #FFDD67 !important;
 }
 
 .lightPurple {
-    background: #B787BE !important;
+  background: #B787BE !important;
 }
 
 .white {
-    background: white !important;
+  background: white !important;
 }
 
 .container-fluid {
@@ -55,8 +55,6 @@ h1 {
     height: 90px;
   }
 }
-
-
 
 .hero-image {
   background-color: red;
@@ -96,10 +94,7 @@ h1 {
   transform: translate(-50%, -50%);
   color: white;
   text-shadow: 2px 2px grey;
-  
 }
-
-
 
 .hero-text>h1 {
   font-size: 80px;
@@ -117,8 +112,6 @@ h1 {
   width: 200px;
   align-items: flex-start;
   margin-bottom: 30px;
-  
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -135,8 +128,8 @@ h1 {
   border-right: 15px;
 }
 
-.active{
-    background: #FFDD67 !important;
+.active {
+  background: #FFDD67 !important;
 }
 
 .navbar-trans {
@@ -153,6 +146,7 @@ h1 {
   right: 50px;
   top: 50px;
 }
+
 .hamburger-sm {
   font-size: 15px;
   background-color: rgba(255, 255, 255, .8);
@@ -167,8 +161,6 @@ h1 {
 .hamburger-text {
   font-family: Raleway;
 }
-
-
 
 .logo {
   max-width: 120px;
@@ -201,18 +193,17 @@ h1 {
 }
 
 #social-media {
-
   width: 280px;
   color: blue;
   font-size: 18px;
-  background-color: rgba(255, 255, 255, .7) ;
-  /* background: black; */
+  background-color: rgba(255, 255, 255, .7);
+  /* background: black; */;
 }
 
 @media screen and (max-width: 992px) {
-#social-media {
-  width: 100%;
-  background-color: white;
+  #social-media {
+    width: 100%;
+    background-color: white;
   }
 }
 
@@ -299,30 +290,29 @@ h1 {
 }
 
 .advert {
- padding: 20px;
+  padding: 20px;
   margin: 20px auto;
 }
 
-
-.map-container{
-	height: 0;
-	overflow: hidden;
-	padding-bottom: 75%;
-	position: relative;
+.map-container {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 75%;
+  position: relative;
 }
 
 .contact-wrapper {
-    padding: 20px;
+  padding: 20px;
 }
 
 #accordion .instructor {
-    margin-left: 20px;
-    font-weight: bold;
-    font-size: 20px;
-    display: inline-block;
-    
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
 }
 
-   .embed-responsive-210by297 {
-   padding-bottom: 141.42%;
-   }
+.embed-responsive-210by297 {
+  padding-bottom: 141.42%;
+}
+
