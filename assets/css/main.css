@@ -307,7 +307,7 @@ h1 {
 .map-container{
 	height: 0;
 	overflow: hidden;
-	padding-bottom: 100%;
+	padding-bottom: 75%;
 	position: relative;
 }
 
