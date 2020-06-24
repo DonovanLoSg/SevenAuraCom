@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@600&display=swap');
 
 body, html {
@@ -126,6 +128,10 @@ h1 {
   /* letter-spacing: 0.15em; */
   border-left: 15px;
   border-right: 15px;
+}
+
+.active{
+    background: #FFDD67 !important;
 }
 
 .navbar-trans {
@@ -303,3 +309,6 @@ h1 {
     padding-bottom: 20px;
 
 }
+
+
+
