@@ -2,7 +2,7 @@
 
 /* Edited to adapt to Bootstrap 4 Navbar by Donovan ( https://github.com/donovanLoSg/ ) */
 
-@import 'https://fonts.googleapis.com/css?family=Raleway';
+
 .lightGreen {
 	background: #8bc34a;
 }
@@ -35,7 +35,7 @@
 	top: 0px;
 	content: '';
 	background: #FFDE60;
-	opacity: 0.3;
+	opacity: 0.5;
 	transition: all 0.3s;
 }
 #pullDown a:hover:before {

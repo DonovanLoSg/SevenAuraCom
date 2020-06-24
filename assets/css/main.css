@@ -1,18 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@600&display=swap');
 
 body, html {
   width: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 h1 {
   color: #black;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif; 
 }
 
 .lightBlue {
   background: #cce6ff !important;
+}
+
+.lightYellow {
+    background: #FFDD67 !important;
+}
+
+.lightPurple {
+    background: #B787BE !important;
 }
 
 .white {
@@ -71,7 +82,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .displacement {
-    height: 90px;
+    height: 100px;
   }
 }
 
@@ -97,7 +108,7 @@ h1 {
 } */
 
 .navbar {
-  min-height: 170px;
+  min-height: 150px;
   width: 200px;
   align-items: flex-end;
   margin-bottom: 10px;
@@ -105,14 +116,14 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .navbar {
-    min-height: 80px;;
+    min-height: 100px;
   }
 }
 
 .nav-item {
   background-color: rgba(255, 255, 255, .8);
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  /* letter-spacing: 0.15em; */
   border-left: 15px;
   border-right: 15px;
 }
@@ -177,9 +188,24 @@ h1 {
 }
 
 .social-media {
-  width: 350px;
+  float: right;
+  width: 280px;
   color: blue;
   font-size: 18px;
+  background-color: rgba(255, 255, 255, .7);
+}
+
+.social-media-sm {
+    position:absolute;
+    top:200;
+    right:100px;
+  /* position: fixed; */
+  width: 280px;
+  color: blue;
+  /* top: 0px; */
+  font-size: 4px;
+  /* background-color: rgba(255, 255, 255, .7); */
+  background-color: black;
 }
 
 .navbarNav {
@@ -267,4 +293,18 @@ h1 {
 .advert {
  padding: 20px;
   margin: 20px auto;
+}
+
+
+.map-container{
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 100%;
+	position: relative;
+}
+
+.contact-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
