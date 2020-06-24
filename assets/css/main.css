@@ -187,25 +187,20 @@ h1 {
   width: 30px;
 }
 
-.social-media {
-  float: right;
+#social-media {
+
   width: 280px;
   color: blue;
   font-size: 18px;
-  background-color: rgba(255, 255, 255, .7);
+  background-color: rgba(255, 255, 255, .7) ;
+  /* background: black; */
 }
 
-.social-media-sm {
-    position:absolute;
-    top:200;
-    right:100px;
-  /* position: fixed; */
-  width: 280px;
-  color: blue;
-  /* top: 0px; */
-  font-size: 4px;
-  /* background-color: rgba(255, 255, 255, .7); */
-  background-color: black;
+@media screen and (max-width: 992px) {
+#social-media {
+  width: 100%;
+  background-color: white;
+  }
 }
 
 .navbarNav {
