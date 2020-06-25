@@ -295,6 +295,24 @@ h1 {
   border: 1px solid green;
   border-radius: 10px;
   background: white;
+  width；100x;
+}
+
+.symbols-group{
+    margin-top: 70px;
+
+}
+
+.home-page-photo {
+    margin: 30px;
+    max-width: 300px;
+    max-height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#main-home p {
+     margin: 30px;   
 }
 
 .responsive {
