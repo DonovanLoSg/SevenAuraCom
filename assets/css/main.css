@@ -315,6 +315,17 @@ h1 {
      margin: 30px;   
 }
 
+.events div {
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.covid {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px
+}
+
 .responsive {
   width: 100%;
   height: auto;
