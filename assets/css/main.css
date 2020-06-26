@@ -356,9 +356,12 @@ h1 {
 
 .instructor-wrapper{
     height: 300px;
-
-
 }
+
+.instructor-photo {
+    width: 30%;
+}
+
 .flex-container {
   display: flex;
   justify-content: space-between;
