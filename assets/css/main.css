@@ -354,6 +354,30 @@ h1 {
   display: inline-block;
 }
 
+.instructor-wrapper{
+    height: 300px;
+
+
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+}
+.flex-container img{
+  margin: 50px;
+  width: 30vw;
+}
+
+.dennis-photo {
+    float: left;
+    height: 300px;
+    clear: right;
+    margin-right: 50px;
+}
+
 .embed-responsive-210by297 {
   padding-bottom: 141.42%;
 }
