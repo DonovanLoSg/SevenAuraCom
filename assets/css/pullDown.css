@@ -1,20 +1,23 @@
 /* Original written by EvyatarDa ( https://codepen.io/EvyatarDa ) */
 
-/* Edited to adapt to Bootstrap 4 Navbar by Donovan ( https://github.com/donovanLoSg/ ) */
 
+/* Edited to adapt to Bootstrap 4 Navbar by Donovan ( https://github.com/donovanLoSg/ ) */
 
 .lightGreen {
 	background: #8bc34a;
 }
+
 .transparent {
 	background: transparent !important;
 }
+
 #pullDown {
 	font-family: Raleway;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
 }
+
 #pullDown a {
 	color: #000;
 	text-decoration: none;
@@ -25,6 +28,8 @@
 	z-index: 0;
 	cursor: pointer;
 }
+
+
 /* Pull down  */
 
 #pullDown a:before {
@@ -38,6 +43,7 @@
 	opacity: 0.5;
 	transition: all 0.3s;
 }
+
 #pullDown a:hover:before {
 	height: 100%;
 }

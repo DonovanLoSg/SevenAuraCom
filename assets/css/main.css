@@ -1,411 +1,404 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@600&display=swap');
-
-body, html {
-  width: 100%;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+body,
+html {
+	width: 100%;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 h1 {
-  color: #black;
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
+	color: #black;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .lightBlue {
-  background: #cce6ff !important;
+	background: #cce6ff !important;
 }
 
 .lightYellow {
-  background: #FFDD67 !important;
+	background: #FFDD67 !important;
 }
 
 .lightPurple {
-  background: #B787BE !important;
+	background: #B787BE !important;
 }
 
 .white {
-  background: white !important;
+	background: white !important;
 }
 
 .container-fluid {
-  padding: 0px;
+	padding: 0px;
 }
 
 .header-image {
-  background-color: white;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)), url("../img/header-image.png");
-  height: 160px;
-  min-height: 110px;
-  background-position: top;
-  background-repeat: repeat-x;
-  position: fixed;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
+	background-color: white;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)), url("../img/header-image.png");
+	height: 160px;
+	min-height: 110px;
+	background-position: top;
+	background-repeat: repeat-x;
+	position: fixed;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
 }
 
 @media screen and (max-width: 768px) {
-  .header-image {
-    height: 90px;
-  }
+	.header-image {
+		height: 90px;
+	}
 }
 
 .hero-image {
-  background-color: red;
-  background-color: white;
-  background-image: url("../img/hero-image-yoga.png");
-  height: 570px;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: 5px 10px 40px black;
-  top: 180px;
+	background-color: red;
+	background-color: white;
+	background-image: url("../img/hero-image-yoga.png");
+	height: 570px;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 5px 10px 40px black;
+	top: 180px;
 }
+
+
 /* https://www.wallpaperflare.com/photo-of-woman-doing-yoga-active-body-exercise-female-fit-wallpaper-gjqzn/download/1920x1080 */
 
-
 @media screen and (max-width: 768px) {
-  .hero-image {
-    height: 300px;
-  }
+	.hero-image {
+		height: 300px;
+	}
 }
 
 .displacement {
-  height: 180px;
+	height: 180px;
 }
 
 @media screen and (max-width: 768px) {
-  .displacement {
-    height: 100px;
-  }
+	.displacement {
+		height: 100px;
+	}
 }
 
 .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-shadow: 2px 2px grey;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-shadow: 2px 2px grey;
 }
 
 .hero-text>h1 {
-  font-size: 80px;
-  font-family: 'Permanent Marker', cursive;
+	font-size: 80px;
+	font-family: 'Cinzel Decorative', cursive;
 }
 
 @media screen and (max-width: 768px) {
-  .hero-text>h1 {
-  font-size: 40px;
-  }
+	.hero-text>h1 {
+		font-size: 40px;
+	}
 }
 
 .hero-text>p {
-  font-size: 30px;
-  font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
+	font-family: 'Permanent Marker', cursive;
 }
 
 @media screen and (max-width: 768px) {
-  .hero-text>p {
-  font-size: 15px;
-  }
+	.hero-text>p {
+		font-size: 15px;
+	}
 }
 
 .navbar {
-  min-height: 150px;
-  height: 170px;
-  width: 200px;
-  align-items: flex-start;
-  margin-bottom: 30px;
+	min-height: 150px;
+	height: 170px;
+	width: 200px;
+	align-items: flex-start;
+	margin-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {
-  .navbar {
-    min-height: 110px;
-  }
+	.navbar {
+		min-height: 110px;
+	}
 }
 
 .nav-item {
-  background-color: rgba(255, 255, 255, .8);
-  text-transform: uppercase;
-  /* letter-spacing: 0.15em; */
-  border-left: 15px;
-  border-right: 15px;
+	background-color: rgba(255, 255, 255, .8);
+	text-transform: uppercase;
+	/* letter-spacing: 0.15em; */
+	border-left: 15px;
+	border-right: 15px;
 }
 
 #pullDown .active {
-  background: #FFDD67 !important;
+	background: #FFDD67 !important;
 }
 
 .navbar-trans {
-  background: transparent !important;
+	background: transparent !important;
 }
 
 .hamburger {
-  font-size: 25px;
-  background-color: rgba(255, 255, 255, .8);
-  border: 2px solid black;
-  padding: 5px;
-  border-radius: 5px;
-  position: absolute;
-  right: 50px;
-  top: 50px;
+	font-size: 25px;
+	background-color: rgba(255, 255, 255, .8);
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 5px;
+	position: absolute;
+	right: 50px;
+	top: 50px;
 }
 
 .hamburger-sm {
-  font-size: 15px;
-  background-color: rgba(255, 255, 255, .8);
-  border: 2px solid black;
-  padding: 5px;
-  border-radius: 5px;
-  position: absolute;
-  right: 20px;
-  top: 20px;
+	font-size: 15px;
+	background-color: rgba(255, 255, 255, .8);
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 5px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
 }
 
 .hamburger-text {
-  font-family: Raleway;
+	font-family: Raleway;
 }
 
 .logo {
-  max-width: 120px;
-  max-height: 120px;
+	max-width: 120px;
+	max-height: 120px;
 }
 
 .logo-sm {
-  max-width: 80px;
-  max-height: 80px;
+	max-width: 80px;
+	max-height: 80px;
 }
 
 .logo-wrapper {
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  background-color: rgba(255, 255, 255, .7);
-  box-shadow: 10px 10px 43px 20px rgba(255, 255, 255, .5);
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	background-color: rgba(255, 255, 255, .7);
+	box-shadow: 10px 10px 43px 20px rgba(255, 255, 255, .5);
 }
 
 .logo-wrapper-sm {
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  background-color: rgba(255, 255, 255, .7);
-  box-shadow: 10px 10px 43px 20px rgba(255, 255, 255, .5);
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	background-color: rgba(255, 255, 255, .7);
+	box-shadow: 10px 10px 43px 20px rgba(255, 255, 255, .5);
 }
 
 .facebook-icon {
-  width: 30px;
+	width: 30px;
 }
 
 #social-media {
-  width: 280px;
-  color: blue;
-  font-size: 18px;
-  background-color: rgba(255, 255, 255, .7);
-  /* background: black; */;
+	width: 280px;
+	color: blue;
+	font-size: 18px;
+	background-color: rgba(255, 255, 255, .7);
+	/* background: black; */
+	;
 }
 
 @media screen and (max-width: 992px) {
-  #social-media {
-    width: 100%;
-    background-color: white;
-  }
+	#social-media {
+		width: 100%;
+		background-color: white;
+	}
 }
 
 .navbarNav {
-  width: 100%;
+	width: 100%;
 }
 
 .quote-card {
-  background: #fff;
-  color: #222222;
-  padding: 20px;
-  padding-left: 50px;
-  box-sizing: border-box;
-  box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
-  position: relative;
-  overflow: hidden;
-  min-height: 120px;
+	background: #fff;
+	color: #222222;
+	padding: 20px;
+	padding-left: 50px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+	position: relative;
+	overflow: hidden;
+	min-height: 120px;
 }
 
 .spacer-50 {
-  margin: 50px auto;
+	margin: 50px auto;
 }
 
 .spacer-top-50 {
-  margin: 50px auto 0px auto;
+	margin: 50px auto 0px auto;
 }
 
 .quote-card p {
-  font-size: 22px;
-  line-height: 1.5;
-  margin: 0;
-  max-width: 80%;
+	font-size: 22px;
+	line-height: 1.5;
+	margin: 0;
+	max-width: 80%;
 }
 
 .quote-card cite {
-  font-size: 16px;
-  margin-top: 10px;
-  display: block;
-  font-weight: 200;
-  opacity: 0.8;
+	font-size: 16px;
+	margin-top: 10px;
+	display: block;
+	font-weight: 200;
+	opacity: 0.8;
 }
 
 .quote-card:before {
-  font-family: Georgia, serif;
-  content: "“";
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 5em;
-  color: rgba(238, 238, 238, 0.8);
-  font-weight: normal;
+	font-family: Georgia, serif;
+	content: "“";
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 5em;
+	color: rgba(238, 238, 238, 0.8);
+	font-weight: normal;
 }
 
 .quote-card:after {
-  font-family: Georgia, serif;
-  content: "”";
-  position: absolute;
-  bottom: -110px;
-  line-height: 100px;
-  right: -32px;
-  font-size: 25em;
-  color: rgba(238, 238, 238, 0.8);
-  font-weight: normal;
+	font-family: Georgia, serif;
+	content: "”";
+	position: absolute;
+	bottom: -110px;
+	line-height: 100px;
+	right: -32px;
+	font-size: 25em;
+	color: rgba(238, 238, 238, 0.8);
+	font-weight: normal;
 }
 
 @media (max-width: 640px) {
-  .quote-card:after {
-    font-size: 22em;
-    right: -25px;
-  }
+	.quote-card:after {
+		font-size: 22em;
+		right: -25px;
+	}
 }
 
 #main-home p {
-  text-align: justify;
-  text-justify: auto;
+	text-align: justify;
+	text-justify: auto;
 }
 
 .symbols {
-  margin: 10px;
-  clear: both;
-  border: 1px solid green;
-  border-radius: 10px;
-  background: white;
-  width；100x;
+	margin: 10px;
+	clear: both;
+	border: 1px solid green;
+	border-radius: 10px;
+	background: white;
+	width；100x;
 }
 
-.symbols-group{
-    margin-top: 70px;
-
+.symbols-group {
+	margin-top: 70px;
 }
 
 .home-page-photo {
-    margin: 30px;
-    max-width: 300px;
-    max-height: 300px;
-    border: 1px solid black;
-    border-radius: 10px;
+	margin: 30px;
+	max-width: 300px;
+	max-height: 300px;
+	border: 1px solid black;
+	border-radius: 10px;
 }
 
 #main-home p {
-     margin: 30px;   
+	margin: 30px;
 }
 
 .events div {
-    display: block;
-    text-align: center;
-    margin: 50px auto;
+	display: block;
+	text-align: center;
+	margin: 50px auto;
 }
 
 .covid {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 40px
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px
 }
 
 .responsive {
-  width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .advert {
-  padding: 20px;
-  margin: 20px auto;
+	padding: 20px;
+	margin: 20px auto;
 }
 
 .map-container {
-  height: 0;
-  overflow: hidden;
-  padding-bottom: 75%;
-  position: relative;
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 75%;
+	position: relative;
 }
 
 .contact-wrapper {
-  padding: 20px;
+	padding: 20px;
 }
 
 #accordion .instructor {
-  margin-left: 20px;
-  font-weight: bold;
-  font-size: 20px;
-  display: inline-block;
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	display: inline-block;
 }
 
-.instructor-wrapper{
-    height: 300px;
+.instructor-wrapper {
+	height: 300px;
 }
 
 .instructor-photo {
-    width: 30%;
+	width: 30%;
 }
 
 .flex-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin: 50px;
 }
 
-}
-.flex-container img{
-  margin: 50px;
-  width: 30vw;
-}
 
+}
+.flex-container img {
+	margin: 50px;
+	width: 30vw;
+}
 .dennis-photo {
-    float: left;
-    height: 300px;
-    clear: right;
-    margin-right: 50px;
+	float: left;
+	height: 300px;
+	clear: right;
+	margin-right: 50px;
 }
-
 .embed-responsive-210by297 {
-  padding-bottom: 141.42%;
+	padding-bottom: 141.42%;
 }
-
-
 .testimonial-carousel {
-    margin-top: 20px;
-    margin-top: 10px;
-    }
-
-.testimonial-carousel .container {
-    border-left:3px solid black;
-    border-right:3px solid black;
-    border-top:1px solid silver;
-    border-bottom:1px solid silver;
-    }
-
-
-.testimonial-carousel .card {
-    border: 1px solid black;
-    border-radius: 25px;
-    box-shadow: 0px 10px 40px silver;
+	margin-top: 20px;
+	margin-top: 10px;
 }
-
+.testimonial-carousel .container {
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+}
+.testimonial-carousel .card {
+	border: 1px solid black;
+	border-radius: 25px;
+	box-shadow: 0px 10px 40px silver;
+}
