@@ -3,6 +3,6 @@
 # SevenAuraCom
 
 Goto:
-https://donovanlosg.github.io/SevenAuraCom
+http://7aura.com
 
 
