@@ -369,6 +369,16 @@ h1 {
 	padding: 20px;
 }
 
+.instructor-wrapper row {
+    justify-content: space-between;
+
+}
+
+.instructor-wrapper {
+    min-width: 400px;
+    
+}
+
 #accordion .instructor {
 	margin-left: 20px;
 	font-weight: bold;
@@ -376,13 +386,6 @@ h1 {
 	display: inline-block;
 }
 
-.instructor-wrapper {
-	height: 300px;
-}
-
-.instructor-photo {
-	width: 30%;
-}
 
 .flex-container {
 	display: flex;
@@ -397,10 +400,10 @@ h1 {
 	width: 30vw;
 }
 .dennis-photo {
-	float: left;
-	
-	clear: right;
-	margin-right: 50px;
+    float: left;
+    width: 141px;
+    height: 150px;
+	margin-right: 30px;    
 }
 .embed-responsive-210by297 {
 	padding-bottom: 141.42%;
